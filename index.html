@@ -60,7 +60,7 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="hero-button">Заказать услугу</button>
+          <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!--Features-->
@@ -123,13 +123,13 @@
             <li class="item">
               <img src="./images/img.jpg" alt="верстка" width="370" />
               <div class="work-thumb">
-                <p class="work-name">ДЕСКТОПНЫЕ ПРИЛОЕНИЯ</p>
+                <p class="work-name">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
             <li class="item">
               <img src="./images/img1.jpg" alt="тестированние" width="370" />
               <div class="work-thumb">
-                <p class="work-name">МОБИЛЬНЫЕ ПРИЛОЕНИЯ</p>
+                <p class="work-name">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
             <li class="item">
@@ -430,5 +430,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button-modal-close" data-modal-close>
+          <svg class="modal-close-icon" width="18px" height="18px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
