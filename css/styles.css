@@ -24,7 +24,7 @@
 
 body {
   margin: 0px;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 
   background-color: var(--primary-bgc);
   color: var(--primary-text-color);
@@ -78,14 +78,15 @@ img {
 /* HEADER */
 
 .header-section {
-  position: fixed;
+  /* position: fixed; */
   top: 0px;
   width: 100%;
   background-color: var(--primary-bgc);
   border-bottom: solid 1px;
   border-color: var(--border-header-color);
-  z-index: 1;
+  /* z-index: 1; */
 }
+
 .flex-header,
 .main-nav {
   display: flex;
